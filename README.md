@@ -6,8 +6,8 @@ You can change ROW/COL value to suit your LED matrix size:<br>
 #define COL 8
 ```
 You can change MCUBITS value based on the MCU you use:<br>
-``#define MCUBITS 8``
-Of course, following ports related to LED matrix may also need to modify if you enlarge the matrix size:<br>
+`#define MCUBITS 8`
+<br>Of course, following ports related to LED matrix may also need to modify if you enlarge the matrix size:<br>
 ```sh
 #define PORT_SEG0 P2
 #define PORT_SEG1 P1
