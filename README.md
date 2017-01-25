@@ -1,13 +1,13 @@
 # myTetris
 Only 2.9KB code. Based on 8-bit MCU (AT89C52/51) &amp; 8 x 16 LED Matrix.Code migration to 16/32-bit MCUs or other LED matrix size only need to modify a few micro definition.<br>
-<br>you can change ROW/COL value to suit your LED matrix size:<br>
+You can change ROW/COL value to suit your LED matrix size:<br>
 ```sh
 #define ROW 16
 #define COL 8
 ```
-<br>you can change MCUBITS value based on the MCU you use:<br>
-`#define MCUBITS 8`
-<br>Of course, following ports related to LED matrix may also need to modify if you enlarge the matrix size:<br>
+You can change MCUBITS value based on the MCU you use:<br>
+``#define MCUBITS 8``
+Of course, following ports related to LED matrix may also need to modify if you enlarge the matrix size:<br>
 ```sh
 #define PORT_SEG0 P2
 #define PORT_SEG1 P1
