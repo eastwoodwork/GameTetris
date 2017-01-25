@@ -12,4 +12,8 @@ Of course, following ports related to LED matrix may also need to modify if you 
 &nbsp; #define PORT_SCAN P0<br>
 &nbsp; #define PORT_KEYS P3<br>
 Or all you need is just to rewrite a LED matrix driver. <br>
+<br>.DSN is the schematic, you can opne it by Proteus(V8.4) and play the game by simulation.
+<br>However, the schematic is not a strict design since it only shows the electronic net logics. In real life, one has to
+consider the driver/sink current of the GPIOs, add more components — or at least in serial with some resistors for the matrix
+driving lines.<br>
 Have fun!<br>
